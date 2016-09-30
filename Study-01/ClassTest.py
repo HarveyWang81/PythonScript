@@ -35,3 +35,7 @@ if __name__=="__main__":
     #     print(i)
 
     # print(decode('\ud83d\udc17'))
+
+    print(Student)
+    print(Student())
+    print(Student())
