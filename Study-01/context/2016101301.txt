@@ -1,0 +1,8 @@
+insert into temp_a values ('13752901_114626913_3','新增');
+insert into temp_a values ('13752901_114626913_1','新增');
+insert into temp_a values ('13752901_114626913_2','新增');
+insert into temp_a values ('13752901_114626913_0','新增');
+insert into temp_a values ('13752901_114622318_0','更新');
+insert into temp_a values ('13747788_114606232_6','更新');
+insert into temp_b values ('13747937_114580738_0','更新');
+insert into temp_b values ('13747646_114580830_0','更新');

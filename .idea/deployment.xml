@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="centos">
+  <component name="PublishConfigData" autoUpload="On explicit save action" serverName="centos" uploadOnCheckin="7f134cec-4908-4421-b2fa-bb774c627660">
     <serverData>
       <paths name="centos">
         <serverdata>
@@ -10,6 +10,7 @@
         </serverdata>
       </paths>
     </serverData>
+    <option name="myUploadOnCheckinName" value="centos" />
     <option name="myAutoUpload" value="ON_EXPLICIT_SAVE" />
   </component>
 </project>
