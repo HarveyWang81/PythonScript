@@ -1,12 +1,29 @@
-#coding:utf-8
+# coding:utf-8
 
 import socket
 
 sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 sock.bind(("127.0.0.1", 8000))
 sock.listen(5)
+print("Server...")
 
-con, add = sock.accept()
-print(con.recv(512).decode())
-con.send("I am Server_Socket.".encode("utf-8"))
-con.close()
+while True:
+    con, add = sock.accept()
+    print("{0}:{1} client connect ...".format(add[0],add[1]))
+    recv_data = ""
+    send_data = ""
+    while True:
+        recv_data = con.recv(512).decode()
+        print(recv_data)
+        if recv_data == "break":
+            break
+
+        send_data = input(">>>")
+        con.send(send_data.encode())
+        if send_data == "break":
+            break
+
+    if send_data == "break":
+        break
+
+sock.close()

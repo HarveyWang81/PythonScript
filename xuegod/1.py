@@ -15,10 +15,4 @@ myfile.seek(0, 0)
 for mystr in myfile:
     print(mystr.strip()[1:6:2])
 
-print('-------------------')
-myfile.seek(0, 0)
-
-for mystr in myfile:
-    print(mystr.strip()[1:6:2])
-
 myfile.close()
