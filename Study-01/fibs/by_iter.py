@@ -18,6 +18,7 @@ class Fiab(object):
         return self.a
 
 if __name__ == "__main__":
-    f = Fiab(10)
+    f = Fiab(int(input("Please input a num:")))
     for i in f:
         print(i, end=" ")
+    print()

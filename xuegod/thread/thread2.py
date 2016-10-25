@@ -10,7 +10,7 @@ class MyThread(threading.Thread):
     def __init__(self, ids, num):
         self.ids = ids
         self.num = num
-        threading.Thread.__init__(self)
+        super(MyThread,self).__init__()
 
     def run(self):
         print("Thread %s is start at %s" % (self.ids, ctime()))
